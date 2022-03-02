@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Matcoms">
         <activity
+            android:name=".Intro_Create_Account_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Intro_Tutorial_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Intro_Screen_Activity2"
             android:exported="false" />
         <activity
