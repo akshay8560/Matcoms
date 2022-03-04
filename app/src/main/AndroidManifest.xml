@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Matcoms">
         <activity
+            android:name=".Log_In_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Create_Account_Activity"
             android:exported="false" />
         <activity
