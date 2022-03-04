@@ -25,6 +25,9 @@
             android:name=".Intro_Screen_Activity2"
             android:exported="false" />
         <activity
+            android:name=".Intro_Screen_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
