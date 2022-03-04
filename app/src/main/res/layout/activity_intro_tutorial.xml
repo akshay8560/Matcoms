@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Intro_Tutorial_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_mastering_emotions"
+            android:layout_width="146dp"
+            android:layout_height="20sp"
+            android:gravity="center"
+            android:text="Mastering Emotions"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+
+            android:id="@+id/txt_mastering_emotions2"
+            android:layout_width="238sp"
+            android:layout_height="622sp"
+            android:layout_below="@+id/txt_mastering_emotions"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Bine ai venit la Mastering Emotions! O aplicație care te sprijină în drumul tău \ncătre stăpânirea\n emoțiilor! O aplicație care îți crește capacitatea de a\n trăi, la comanda ta\n, emoții benefice! Și care susține și dezvoltarea\n puterii tale de a atenua, \nsau chiar de a anula, diferite stări care te deranjează.
+Pentru a utiliza Mastering Emotions, te rog să-ți \ncreezi un cont. Așa te vei\n putea bucura de toate \nbeneficiile acestei\n aplicații.
+
+"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+
+            android:id="@+id/txt_mastering_emotions3"
+            android:layout_width="202sp"
+            android:layout_height="33sp"
+            android:layout_below="@+id/txt_mastering_emotions2"
+            android:gravity="center"
+            android:text="Master Your Fate"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginStart="350dp"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/image_me"
+            android:layout_width="28.46dp"
+            android:layout_height="28.34dp"
+            android:layout_gravity="center"
+            android:src="@drawable/me"></ImageView>
+    </LinearLayout>
+</RelativeLayout>
