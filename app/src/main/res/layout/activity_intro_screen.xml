@@ -9,7 +9,6 @@
     tools:context=".Intro_Screen_Activity">
 
     <TextView
-
         android:id="@+id/txt_mastering_emotions"
         android:layout_width="194dp"
         android:layout_height="27sp"
